@@ -6,6 +6,7 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { useToast } from "../hooks/use-toast"
 import { useAuth } from "../components/auth-provider"
 import { Button } from "../components/ui/button"
+import { Mic } from "lucide-react"
 
 export default function Login() {
   const [isLoading, setIsLoading] = useState(false)
@@ -36,9 +37,12 @@ export default function Login() {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-b from-background to-muted p-4">
-      <div className="absolute top-4 left-4">
-        <Link to="/" className="text-2xl font-bold">
-          Afroglot
+      <div className="absolute top-4 left-4 ">
+      <Link to="/" className="flex items-center space-x-2">
+          <div className="h-8 w-8 rounded-full bg-primary/20 flex items-center justify-center">
+            <Mic className="h-4 w-4 text-primary" />
+          </div>
+          <span className="font-bold text-xl">Afroglot</span>
         </Link>
       </div>
 
