@@ -1,5 +1,8 @@
 # Afroglot Setup
 
+## Live Demo
+[Afroglot v0](https://afroglot-v0.vercel.app/)
+
 ## Prerequisites
 Before setting up Afroglot, ensure you have the following installed:
 - [Node.js](https://nodejs.org/) (Recommended: LTS version)
@@ -9,7 +12,7 @@ Before setting up Afroglot, ensure you have the following installed:
 ## Installation
 1. **Clone the Afroglot repository**
    ```sh
-   git clone https://github.com/e-dania/Afroglot_v0
+   git clone <repository_url>
    cd afroglot
    ```
 
